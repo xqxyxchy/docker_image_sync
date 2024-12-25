@@ -4,4 +4,5 @@
 --platform=linux/amd64,linux/arm64 eipwork/kuboard:v3
 --platform=linux/amd64,linux/arm64 eipwork/kuboard-agent:v3
 --platform=linux/amd64,linux/arm64 eipwork/etcd-host:3.4.16-1
+--platform=linux/amd64,linux/arm64 eipwork/etcd-host:3.4.16-2
 questdb/questdb:6.0.4
