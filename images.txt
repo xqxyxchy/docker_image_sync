@@ -2,3 +2,4 @@
 --platform=linux/amd64,linux/arm64 joyqi/typecho:nightly-php8.2-apache
 --platform=linux/amd64,linux/arm64 mysql:8.0.29
 --platform=linux/amd64,linux/arm64 docker.elastic.co/elasticsearch/elasticsearch:8.6.2
+--platform=linux/amd64,linux/arm64 docker.elastic.co/kibana/kibana:8.6.2
