@@ -1,0 +1,2 @@
+# 支持指定架构、多架构
+--platform=linux/amd64,linux/arm64 jpomdocker/jpom
