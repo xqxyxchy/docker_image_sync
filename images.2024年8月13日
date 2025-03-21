@@ -1,3 +1,0 @@
-# 支持指定架构、多架构
---platform=linux/amd64,linux/arm64 jenkins/jenkins:2.453-jdk11
---platform=linux/amd64,linux/arm64 jenkins/jenkins:2.453-jdk17
