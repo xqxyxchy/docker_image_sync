@@ -1,0 +1,4 @@
+# 支持指定架构、多架构
+--platform=linux/amd64,linux/arm64 apache/iotdb:1.3.2-standalone
+--platform=linux/amd64,linux/arm64 selectdb/doris.be-ubuntu:2.1.7
+--platform=linux/amd64,linux/arm64 selectdb/doris.fe-ubuntu:2.1.7
