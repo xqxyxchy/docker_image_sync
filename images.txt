@@ -1,3 +1,2 @@
 # 支持指定架构、多架构
---platform=linux/amd64,linux/arm64 gpustack/gpustack:latest-npu
---platform=linux/amd64,linux/arm64 gpustack/gpustack:latest-cpu
+--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.7.3rc2
