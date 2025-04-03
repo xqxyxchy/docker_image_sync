@@ -1,0 +1,5 @@
+# 支持指定架构、多架构
+--platform=linux/amd64,linux/arm64 mongo:5
+--platform=linux/amd64,linux/arm64 mongo:6
+--platform=linux/amd64,linux/arm64 mongo:7
+--platform=linux/amd64,linux/arm64 mongo:8
