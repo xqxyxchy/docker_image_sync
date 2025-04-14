@@ -4,4 +4,6 @@
 #--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.11
 #--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.7-local
 #########
---platform=linux/amd64,linux/arm64 apache/dolphinscheduler-standalone-server:3.1.8
+#--platform=linux/amd64,linux/arm64 apache/dolphinscheduler-standalone-server:3.1.8
+#########
+--platform=linux/amd64,linux/arm64 neo4j:4.4.42-community
