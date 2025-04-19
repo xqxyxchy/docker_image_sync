@@ -4,4 +4,10 @@
 #--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.11
 #--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.7-local
 #########
---platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.8.4rc1
+# github
+#--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.8.4rc1
+#########
+# https://hub.docker.com/r/gpustack/gpustack/tags
+--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.6.0rc1-npu
+--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.5.1-npu
+--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.5.1-cpu
