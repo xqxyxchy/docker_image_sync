@@ -4,13 +4,4 @@
 #--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.11
 #--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.7-local
 #########
-#--platform=linux/amd64,linux/arm64 apache/dolphinscheduler-standalone-server:3.1.8
-#########
-#--platform=linux/amd64,linux/arm64 neo4j:4.4.42-community
-#########
---platform=linux/amd64,linux/arm64 apache/dolphinscheduler-tools:3.1.8
---platform=linux/amd64,linux/arm64 apache/dolphinscheduler-api:3.1.8
---platform=linux/amd64,linux/arm64 apache/dolphinscheduler-master:3.1.8
---platform=linux/amd64,linux/arm64 apache/dolphinscheduler-worker:3.1.8
---platform=linux/amd64,linux/arm64 apache/dolphinscheduler-alert-server:3.1.8
---platform=linux/amd64,linux/arm64 zookeeper:3.9.1
+--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.8.4rc1
