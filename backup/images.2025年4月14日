@@ -1,0 +1,6 @@
+--platform=linux/amd64,linux/arm64 apache/dolphinscheduler-tools:3.1.8
+--platform=linux/amd64,linux/arm64 apache/dolphinscheduler-api:3.1.8
+--platform=linux/amd64,linux/arm64 apache/dolphinscheduler-master:3.1.8
+--platform=linux/amd64,linux/arm64 apache/dolphinscheduler-worker:3.1.8
+--platform=linux/amd64,linux/arm64 apache/dolphinscheduler-alert-server:3.1.8
+--platform=linux/amd64,linux/arm64 zookeeper:3.9.1
