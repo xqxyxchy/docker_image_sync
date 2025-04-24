@@ -1,8 +1,8 @@
 # 支持指定架构、多架构
---platform=linux/amd64,linux/arm64 langgenius/dify-api:1.3.0
---platform=linux/amd64,linux/arm64 langgenius/dify-web:1.3.0
+#--platform=linux/amd64,linux/arm64 langgenius/dify-api:1.3.0
+#--platform=linux/amd64,linux/arm64 langgenius/dify-web:1.3.0
 #--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.11
---platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.9-local
+#--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.9-local
 #########
 # github
 #--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.8.4rc1
@@ -11,3 +11,5 @@
 #--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.6.0rc1-npu
 #--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.5.1-npu
 #--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.5.1-cpu
+#########
+--platform=linux/amd64,linux/arm64 apache/rocketmq:4.3.1
