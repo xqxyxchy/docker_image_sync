@@ -13,4 +13,7 @@
 #--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.5.1-cpu
 #########
 #--platform=linux/amd64 apache/rocketmq:4.3.1
---platform=linux/amd64 apacherocketmq/rocketmq-dashboard:2.0.0
+#--platform=linux/amd64 apacherocketmq/rocketmq-dashboard:2.0.0
+--platform=linux/amd64 nacos/nacos-server:v2.3.1
+--platform=linux/amd64 nacos/nacos-server:v2.5.1
+--platform=linux/amd64 nacos/nacos-server:v3.0.0
