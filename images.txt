@@ -1,6 +1,6 @@
 # 支持指定架构、多架构
-#--platform=linux/amd64,linux/arm64 langgenius/dify-api:1.3.0
-#--platform=linux/amd64,linux/arm64 langgenius/dify-web:1.3.0
+--platform=linux/amd64,linux/arm64 langgenius/dify-api:1.3.1
+--platform=linux/amd64,linux/arm64 langgenius/dify-web:1.3.1
 #--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.11
 #--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.9-local
 #########
@@ -14,6 +14,6 @@
 #########
 #--platform=linux/amd64 apache/rocketmq:4.3.1
 #--platform=linux/amd64 apacherocketmq/rocketmq-dashboard:2.0.0
---platform=linux/amd64 nacos/nacos-server:v2.3.1
---platform=linux/amd64 nacos/nacos-server:v2.5.1
---platform=linux/amd64 nacos/nacos-server:v3.0.0
+#--platform=linux/amd64 nacos/nacos-server:v2.3.1
+#--platform=linux/amd64 nacos/nacos-server:v2.5.1
+#--platform=linux/amd64 nacos/nacos-server:v3.0.0
