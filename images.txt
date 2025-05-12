@@ -19,4 +19,4 @@
 #--platform=linux/amd64 nacos/nacos-server:v3.0.0
 #########
 #--platform=linux/amd64 clamav/clamav:1.4.2
---platform=linux/amd64,linux/arm64 allinssl/allinssl:1.0.1
+--platform=linux/amd64,linux/arm64 allinssl/allinssl:latest
