@@ -1,8 +1,8 @@
 # 支持指定架构、多架构
---platform=linux/amd64,linux/arm64 langgenius/dify-api:1.4.0
---platform=linux/amd64,linux/arm64 langgenius/dify-web:1.4.0
---platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.12
---platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.10-local
+#--platform=linux/amd64,linux/arm64 langgenius/dify-api:1.4.0
+#--platform=linux/amd64,linux/arm64 langgenius/dify-web:1.4.0
+#--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.12
+#--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.0.10-local
 #########
 # github
 #--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.8.5rc1
@@ -20,3 +20,10 @@
 #########
 #--platform=linux/amd64 clamav/clamav:1.4.2
 #--platform=linux/amd64,linux/arm64 allinssl/allinssl:latest
+#########
+--platform=linux/amd64,linux/arm64 calico/cni:v3.24.0
+--platform=linux/amd64,linux/arm64 calico/node:v3.24.0
+--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.24.0
+--platform=linux/amd64,linux/arm64 calico/cni:v3.25.0
+--platform=linux/amd64,linux/arm64 calico/node:v3.25.0
+--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.25.0
