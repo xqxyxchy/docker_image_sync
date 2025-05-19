@@ -21,9 +21,12 @@
 #--platform=linux/amd64 clamav/clamav:1.4.2
 #--platform=linux/amd64,linux/arm64 allinssl/allinssl:latest
 #########
---platform=linux/amd64,linux/arm64 calico/cni:v3.24.0
---platform=linux/amd64,linux/arm64 calico/node:v3.24.0
---platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.24.0
---platform=linux/amd64,linux/arm64 calico/cni:v3.25.0
---platform=linux/amd64,linux/arm64 calico/node:v3.25.0
---platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.25.0
+--platform=linux/amd64,linux/arm64 calico/cni:v3.23.2
+--platform=linux/amd64,linux/arm64 calico/node:v3.23.2
+--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.23.2
+#--platform=linux/amd64,linux/arm64 calico/cni:v3.24.0
+#--platform=linux/amd64,linux/arm64 calico/node:v3.24.0
+#--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.24.0
+#--platform=linux/amd64,linux/arm64 calico/cni:v3.25.0
+#--platform=linux/amd64,linux/arm64 calico/node:v3.25.0
+#--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.25.0
