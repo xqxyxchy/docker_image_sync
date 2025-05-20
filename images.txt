@@ -21,12 +21,18 @@
 #--platform=linux/amd64 clamav/clamav:1.4.2
 #--platform=linux/amd64,linux/arm64 allinssl/allinssl:latest
 #########
---platform=linux/amd64,linux/arm64 calico/cni:v3.23.2
---platform=linux/amd64,linux/arm64 calico/node:v3.23.2
---platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.23.2
+#--platform=linux/amd64,linux/arm64 calico/cni:v3.23.2
+#--platform=linux/amd64,linux/arm64 calico/node:v3.23.2
+#--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.23.2
 #--platform=linux/amd64,linux/arm64 calico/cni:v3.24.0
 #--platform=linux/amd64,linux/arm64 calico/node:v3.24.0
 #--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.24.0
 #--platform=linux/amd64,linux/arm64 calico/cni:v3.25.0
 #--platform=linux/amd64,linux/arm64 calico/node:v3.25.0
 #--platform=linux/amd64,linux/arm64 calico/kube-controllers:v3.25.0
+#########
+--platform=linux/amd64 seafileltd/seafile-mc:8.0.7
+--platform=linux/amd64,linux/arm64 seafileltd/seafile-mc:9.0.10
+--platform=linux/amd64,linux/arm64 seafileltd/seafile-mc:10.0.1
+--platform=linux/amd64,linux/arm64 seafileltd/seafile-mc:11.0.13
+--platform=linux/amd64,linux/arm64 seafileltd/seafile-mc:12.0.11
