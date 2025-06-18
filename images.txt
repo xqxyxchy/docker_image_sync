@@ -4,7 +4,9 @@
 #--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.12
 #--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.1.2-local
 #########
---platform=linux/amd64,linux/arm64 xprobe/xinference:v1.7.0.post1
+#--platform=linux/amd64,linux/arm64 xprobe/xinference:v1.7.0.post1
+#########
+--platform=linux/amd64,linux/arm64 linuxserver/ffmpeg:7.1.1
 #########
 # github
 #--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.8.5rc1
