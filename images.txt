@@ -1,6 +1,6 @@
 # 支持指定架构、多架构
---platform=linux/amd64,linux/arm64 langgenius/dify-api:1.5.0
---platform=linux/amd64,linux/arm64 langgenius/dify-web:1.5.0
+#--platform=linux/amd64,linux/arm64 langgenius/dify-api:1.5.0
+#--platform=linux/amd64,linux/arm64 langgenius/dify-web:1.5.0
 #--platform=linux/amd64,linux/arm64 langgenius/dify-sandbox:0.2.12
 #--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.1.2-local
 #########
@@ -12,7 +12,7 @@
 #--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.8.5rc1
 #--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.7.3.post1
 #--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.9.0rc2
---platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.9.1rc1
+#--platform=linux/amd64,linux/arm64 quay.io/ascend/vllm-ascend:v0.9.1rc1
 #########
 ## https://hub.docker.com/r/gpustack/gpustack/tags
 #--platform=linux/amd64,linux/arm64 gpustack/gpustack:v0.5.1-npu
@@ -47,3 +47,8 @@
 #--platform=linux/amd64,linux/arm64 seafileltd/seafile-mc:10.0.1
 #--platform=linux/amd64,linux/arm64 seafileltd/seafile-mc:11.0.13
 #--platform=linux/amd64,linux/arm64 seafileltd/seafile-mc:12.0.11
+#########
+--platform=linux/amd64 wandb/local:0.70.0
+--platform=linux/amd64 wandb/controller:1.20
+--platform=linux/amd64 wandb/console:2.17
+--platform=linux/amd64 wandb/frontend-nginx:0.70.0
