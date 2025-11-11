@@ -1,6 +1,8 @@
 # 支持指定架构、多架构
---platform=linux/amd64 elasticsearch:7.5.1
---platform=linux/amd64 redis/redisinsight:2.70
+--platform=linux/amd64 apache/rocketmq:5.3.1
+
+#--platform=linux/amd64 elasticsearch:7.5.1
+#--platform=linux/amd64 redis/redisinsight:2.70
 
 #--platform=linux/amd64,linux/arm64 langgenius/dify-api:1.8.0
 #--platform=linux/amd64,linux/arm64 langgenius/dify-web:1.8.0
