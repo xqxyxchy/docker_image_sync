@@ -1,5 +1,5 @@
 # 支持指定架构、多架构
-#--platform=linux/amd64,linux/arm64 ghcr.io/usestrix/strix-sandbox:0.1.10
+--platform=linux/amd64,linux/arm64 ghcr.io/usestrix/strix-sandbox:0.1.10
 #--platform=linux/amd64 ghcr.io/tw93/pake:v3.6.0
 #--platform=linux/amd64 apacherocketmq/rocketmq-dashboard:2.1.0
 #--platform=linux/amd64 apache/rocketmq:5.3.1
