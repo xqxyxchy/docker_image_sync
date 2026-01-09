@@ -4,14 +4,12 @@
 --platform=linux/amd64,linux/arm64 python:3.12-alpine
 --platform=linux/amd64,linux/arm64 python:3.13-alpine
 --platform=linux/amd64,linux/arm64 python:3.14-alpine
---platform=linux/amd64,linux/arm64 python:3.15-alpine
 
 #--platform=linux/amd64,linux/arm64 python:3.10
 #--platform=linux/amd64,linux/arm64 python:3.11
 #--platform=linux/amd64,linux/arm64 python:3.12
 #--platform=linux/amd64,linux/arm64 python:3.13
 #--platform=linux/amd64,linux/arm64 python:3.14
---platform=linux/amd64,linux/arm64 python:3.15
 
 #--platform=linux/amd64,linux/arm64 semitechnologies/weaviate:1.27.0
 #--platform=linux/amd64,linux/arm64 langgenius/dify-plugin-daemon:0.5.2-local
