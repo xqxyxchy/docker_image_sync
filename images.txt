@@ -1,9 +1,14 @@
 # 支持指定架构、多架构
+--platform=linux/amd64,linux/arm64 langgenius/dify-web:1.11.4
+--platform=linux/amd64,linux/arm64 langgenius/dify-api:1.11.4
+--platform=linux/amd64,linux/arm64 nginx:1.29.4
+--platform=linux/amd64,linux/arm64 busybox:1.37.0
+
 #--platform=linux/amd64,linux/arm64 python:3.10-alpine
---platform=linux/amd64,linux/arm64 python:3.11-alpine
---platform=linux/amd64,linux/arm64 python:3.12-alpine
---platform=linux/amd64,linux/arm64 python:3.13-alpine
---platform=linux/amd64,linux/arm64 python:3.14-alpine
+#--platform=linux/amd64,linux/arm64 python:3.11-alpine
+#--platform=linux/amd64,linux/arm64 python:3.12-alpine
+#--platform=linux/amd64,linux/arm64 python:3.13-alpine
+#--platform=linux/amd64,linux/arm64 python:3.14-alpine
 
 #--platform=linux/amd64,linux/arm64 python:3.10
 #--platform=linux/amd64,linux/arm64 python:3.11
