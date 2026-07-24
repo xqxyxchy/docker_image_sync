@@ -1,5 +1,7 @@
 # 支持指定架构、多架构
---platform=linux/amd64,linux/arm64 redis:7-alpine
+--platform=linux/amd64,linux/arm64 docker:cli
+
+#--platform=linux/amd64,linux/arm64 redis:7-alpine
 
 #--platform=linux/amd64,linux/arm64 nginx:alpine
 #--platform=linux/amd64,linux/arm64 nginx:1.30.4-alpine3.24-slim
