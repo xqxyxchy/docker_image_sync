@@ -1,6 +1,6 @@
 # 支持指定架构、多架构
 # aquasecurity/trivy:0.74.0
---platform=linux/amd64,linux/arm64 trivy:0.74.0
+--platform=linux/amd64,linux/arm64 aquasecurity/trivy
 
 #--platform=linux/amd64,linux/arm64 sonarqube:26.9.0.129388-community
 #--platform=linux/amd64,linux/arm64 sonarsource/sonar-scanner-cli:12.1.0.3233_8.0.1
